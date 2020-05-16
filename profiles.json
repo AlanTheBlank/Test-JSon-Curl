@@ -1,0 +1,131 @@
+{
+  "version" : {
+      "version" : {
+          "ID": "0516201"
+      }
+  },
+  "social" : {
+      "facebook" : {
+          "Name" : "FaceBook",
+          "URL" : "https://www.facebook.com/{}",
+          "Expected Response Code" : 200,
+          "Error Text" : "This Content Isn't Available Right Now",
+          "JS" : false
+      },
+      "twitter" : {
+          "Name" : "Twitter",
+          "URL" : "https://twitter.com/{}",
+          "Expected Response Code" : 200,
+          "Error Text" : "This account doesn",
+          "JS" : true
+      },
+      "askFM" : {
+          "Name" : "AskFM",
+          "URL" : "https://ask.fm/{}",
+          "Expected Response Code" : 200,
+          "Error Text" : "<p>Well, apparently not anymore.</p>",
+          "JS" : false
+      },
+      "reddit" : {
+          "Name" : "Reddit",
+          "URL" : "https://www.reddit.com/user/{}",
+          "Expected Response Code" : 200,
+          "Error Text" : "Sorry, nobody on Reddit goes by that name.",
+          "JS" : false
+      },
+      "tiktok" : {
+          "Name" : "TikTok",
+          "URL" : "https://www.tiktok.com/@{}",
+          "Expected Response Code" : 200,
+          "Error Text" : "t find this account",
+          "JS" : false
+      }
+  },
+  "images" : {
+      "9gag" : {
+          "Name" : "9gag",
+          "URL" : "https://9gag.com/u/{}",
+          "Expected Response Code" : 200,
+          "Error Text" : "<h3>Find what you're looking for with our app.</h3>",
+          "JS" : false
+      },
+      "500px" : {
+          "Name" : "500px",
+          "URL" : "https://500px.com/{}",
+          "Expected Response Code" : 200,
+          "Error Text" : "Oops! This page doesn't exist.",
+          "JS" : false
+      }
+  },
+  "hacking": {
+      "raidfourms" : {
+          "Name" : "RaidForums",
+          "URL" : "https://raidforums.com/User-{}",
+          "Expected Response Code" : 200,
+          "Error Text" : "The member you specified is either invalid or doesn't exist.",
+          "JS" : false
+      },
+      "hackthebox" : {
+          "Name" : "HackTheBox",
+          "URL" : "https://forum.hackthebox.eu/profile/{}",
+          "Expected Response Code" : 200,
+          "Error Text" : "The user you were looking for could not be found.",
+          "JS" : false
+      },
+      "hackerone" : {
+          "Name" : "HackerOne",
+          "URL" : "https://hackerone.com/{}",
+          "Expected Response Code" : 200,
+          "Error Text" : "The page you are looking for does not exist.",
+          "JS" : false
+      }
+  },
+  "gaming" : {
+      "aptoide" : {
+          "Name" : "Aptoide",
+          "URL" : "https://en.aptoide.com/store/{}",
+          "Expected Response Code" : 200,
+          "Error Text" : "Oops... The page you are looking for isn't available right now!",
+          "JS" : false
+      },
+      "xbox" : {
+          "Name" : "Xbox",
+          "URL" : "https://xboxgamertag.com/search/{}",
+          "Expected Response Code" : 200,
+          "Error Text" : "Gamertag doesn\u0027t exist",
+          "JS" : false
+      },
+      "steam" : {
+          "Name" : "Steam",
+          "URL" : "https://steamcommunity.com/id/{}",
+          "Expected Response Code" : 200,
+          "Error Text" : "The specified profile could not be found.",
+          "JS" : false
+      },
+      "discord" : {
+          "Name" : "Discord",
+          "URL" : "https://tracr.co/users/1/{}",
+          "Expected Response Code" : 200,
+          "Error Text" : "No search results",
+          "JS" : false
+      }
+  },
+  "adult" : {
+      "OnlyFans" : {
+          "Name" : "OnlyFans",
+          "URL" : "https://onlyfans.com/{}",
+          "Expected Response Code" : 200,
+          "Error Text" : "this page is not available",
+          "JS" : true
+      }
+  },
+  "misc" : {
+      "pastebin" : {
+          "Name" : "Pastebin",
+          "URL" : "https://pastebin.com/u/{}",
+          "Expected Response Code" : 200,
+          "Error Text" : null,
+          "JS" : false
+      }
+  }
+}
