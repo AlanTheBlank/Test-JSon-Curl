@@ -1,0 +1,24 @@
+{
+  "version" : {
+      "version" : {
+          "ID" : "0517201"
+      }
+  },
+  "sites": {
+      "com" : "http://{}.com",
+      "org" : "http://{}.org",
+      "net" : "http://{}.net",
+      "edu" : "http://{}.edu",
+      "co.uk" : "http://{}.co.uk",
+      "cf" : "http://{}.cf",
+      "ga" : "http://{}.ga",
+      "gq" : "http://{}.gq",
+      "ml" : "http://{}.ml",
+      "np" : "http://{}.np",
+      "nr" : "http://{}.nr",
+      "co.nr" : "http://{}.co.nr",
+      "tk" : "http://{}.tk",
+      "ie" : "http://{}.ie",
+      "xyz" : "http://{}.xyz"
+  }
+}
